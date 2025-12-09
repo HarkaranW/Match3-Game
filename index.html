@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>🧩 Match 3</title>
+
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			margin: 0;
+			background-color: #121212;
+		}
+
+		canvas {
+			background-color: #1F1B24;
+			outline: none;
+
+			/* https://developer.mozilla.org/en-US/docs/Games/Techniques/Crisp_pixel_art_look */
+			image-rendering: crisp-edges;
+			image-rendering: pixelated;
+			width: 1280px;
+			height: 720px;
+		}
+	</style>
+</head>
+
+<body>
+	<script type="module" src="./src/main.js"></script>
+</body>
+
+</html>

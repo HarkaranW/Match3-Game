@@ -1,0 +1,83 @@
+{
+	"width": 640,
+	"height": 352,
+	"sounds": [
+		{
+			"name": "clock",
+			"path": "./assets/sounds/clock.wav",
+			"size": 5,
+			"volume": 0.1
+		},
+		{
+			"name": "error",
+			"path": "./assets/sounds/error.wav",
+			"size": 5,
+			"volume": 0.1
+		},
+		{
+			"name": "game-over",
+			"path": "./assets/sounds/game-over.wav",
+			"size": 1,
+			"volume": 0.1
+		},
+		{
+			"name": "match",
+			"path": "./assets/sounds/match.wav",
+			"size": 10,
+			"volume": 0.1
+		},
+		{
+			"name": "music",
+			"path": "./assets/sounds/music.mp3",
+			"size": 1,
+			"volume": 0.1,
+			"loop": true
+		},
+		{
+			"name": "music2",
+			"path": "./assets/sounds/music2.mp3",
+			"size": 1,
+			"volume": 0.1,
+			"loop": true
+		},
+		{
+			"name": "music3",
+			"path": "./assets/sounds/music3.mp3",
+			"size": 1,
+			"volume": 0.1,
+			"loop": true
+		},
+		{
+			"name": "next-level",
+			"path": "./assets/sounds/next-level.wav",
+			"size": 1,
+			"volume": 0.1
+		},
+		{
+			"name": "select",
+			"path": "./assets/sounds/select.wav",
+			"size": 10,
+			"volume": 0.1
+		}
+	],
+	"fonts": [
+		{
+			"name": "Joystix",
+			"path": "./assets/fonts/Joystix.ttf"
+		}
+	],
+	"images": [
+		{
+			"name": "background",
+			"path": "./assets/images/background.png",
+			"width": 1024,
+			"height": 360
+		},
+		{
+			"name": "sprite-sheet",
+			"path": "./assets/images/sprite_sheet.png",
+			"width": 384,
+			"height": 288
+		}
+	]
+}
